@@ -358,15 +358,15 @@
 
 <script>
     const products = [
-        { id: 1, name: "Ноутбук", desc: "ПРИВЕТ", price: 69990, cat: "laptops", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 2, name: "Наушники", desc: "ПРИВЕТ", price: 12990, cat: "audio", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 3, name: "Телефон", desc: "ПРИВЕТ", price: 49990, cat: "phones", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 4, name: "Ноутбук", desc: "ПРИВЕТ", price: 89990, cat: "laptops", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 5, name: "Наушники", desc: "ПРИВЕТ", price: 15990, cat: "audio", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 6, name: "Телефон", desc: "ПРИВЕТ", price: 79990, cat: "phones", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 7, name: "Ноутбук", desc: "ПРИВЕТ", price: 119990, cat: "laptops", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 8, name: "Наушники", desc: "ПРИВЕТ", price: 8990, cat: "audio", img: "ФОТО ВСТАВЛЯТЬ ТУТ" },
-        { id: 9, name: "Телефон", desc: "ПРИВЕТ", price: 99990, cat: "phones", img: "ФОТО ВСТАВЛЯТЬ ТУТ" }
+        { id: 1, name: "Ноутбук", desc: "ПРИВЕТ", price: 69990, cat: "laptops", img: " " },
+        { id: 2, name: "Наушники", desc: "ПРИВЕТ", price: 12990, cat: "audio", img: " " },
+        { id: 3, name: "Телефон", desc: "ПРИВЕТ", price: 49990, cat: "phones", img: " " },
+        { id: 4, name: "Ноутбук", desc: "ПРИВЕТ", price: 89990, cat: "laptops", img: "" },
+        { id: 5, name: "Наушники", desc: "ПРИВЕТ", price: 15990, cat: "audio", img: " " },
+        { id: 6, name: "Телефон", desc: "ПРИВЕТ", price: 79990, cat: "phones", img: " " },
+        { id: 7, name: "Ноутбук", desc: "ПРИВЕТ", price: 119990, cat: "laptops", img: " " },
+        { id: 8, name: "Наушники", desc: "ПРИВЕТ", price: 8990, cat: "audio", img: " " },
+        { id: 9, name: "Телефон", desc: "ПРИВЕТ", price: 99990, cat: "phones", img: " " }
     ];
 
     let activeCategory = "all";
